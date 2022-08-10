@@ -366,7 +366,6 @@ class RepVGGYOLOX(nn.Module):
 if __name__ == '__main__':
 
     from torchsummaryX import summary
-    import math
 
     depth_mul = 0.33
     width_mul = 0.5
